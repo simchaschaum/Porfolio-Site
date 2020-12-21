@@ -424,6 +424,10 @@ nav{
     font-weight: var(--fw-bold);
 }
 
+#cv {
+    padding-top: 20px;
+}
+
 .social-list{
     list-style: none;
     display: flex;
