@@ -143,6 +143,8 @@ h3{
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .section__subtitle--work{
@@ -155,6 +157,14 @@ h3{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-gap: 5px
+}
+
+@media(max-width: 601px){
+    .portfolio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .portfolio__div{
@@ -178,6 +188,8 @@ h3{
 }
 
 .portfolio__img{
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     transition:        
         transform 500ms cubic-bezier(.5,0,.5,1),
