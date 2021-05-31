@@ -60,7 +60,7 @@ strong{
 
 :focus {
     outline: var(--clr-accent) solid 3px;
-    outline-offset: 3px;
+    outline-offset: 3px
 }
 
 /* typography */
@@ -201,13 +201,13 @@ a{
         opacity 250ms linear;
 }
 
-.portfolio__item:focus{
+.portfolio__link:focus .text-div{
     position: relative;
     z-index: 2;
 }
 
 .portfolio__img:hover,
-.portfolio__item:focus .portfolio__img{
+.portfolio__link:focus .portfolio__img{
     transform: scale(1.1);
     opacity: 0;
 }
