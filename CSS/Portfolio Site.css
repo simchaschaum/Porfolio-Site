@@ -150,7 +150,12 @@ h3{
 .section__subtitle--work{
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+}
+.section__subtitle--work-sub{
+    color: var(--clr-accent);
+    font-weight: var(--fw-reg);
+    margin-bottom: 0.5em;
 }
 
 .portfolio{
